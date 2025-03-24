@@ -43,4 +43,13 @@ func main() {
 7. Sprint()不会自动换行
 8. Sprintf()不会自动换行
 
+## 打印类型
+```go
+package main
+
+func main() {
+  fmt.Printf("%T", 234)
+}
+```
+
 
